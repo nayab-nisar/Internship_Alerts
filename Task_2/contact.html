@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Bootstrap Icons stylesheet -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo-removebg-preview.png" alt="Icon" width="50" height="30" class="d-inline-block align-top">
+            Education
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" id="contactLink">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- Contact Form -->
+<div class="container form-container" id="contactForm">
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputFirstName">First Name:</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputLastName">Last Name:</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Enter your last name">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputPhoneNumber">Phone Number:</label>
+            <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmailAddress">Email:</label>
+            <input type="email" class="form-control" id="inputEmailAddress" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label for="inputMessage">Your Message:</label>
+            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Enter your message"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-primary">Sign In</button>
+        <button type="button" class="btn btn-success">Log In</button>
+    </form>
+</div>
+    <script>
+        document.getElementById("navbarContainer").innerHTML = '<object type="text/html" data="navbar.html"></object>';
+    </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>

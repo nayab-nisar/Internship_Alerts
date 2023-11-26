@@ -1,0 +1,211 @@
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+.custom-card {
+  margin-bottom: 15px;
+}
+
+.testimonial {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.faq {
+  padding: 50px 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.custom-card {
+  margin-bottom: 15px;
+}
+
+/* About Us Section */
+section.bg-light {
+background-color: #f8f9fa; /* or any other background color you prefer */
+}
+
+/* Custom CSS for Home Section */
+section {
+height: 500px; /* Set the desired height of the home section */
+background: url('your-background-image.jpg') center/cover no-repeat; /* Replace 'your-background-image.jpg' with the actual image URL */
+position: relative;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/* background: rgba(255, 253, 253, 0.5); */
+/* Adjust the transparency as needed */
+}
+
+
+
+/* Custom CSS for styling */
+.navbar-brand img {
+width: 85px; 
+height: 50px;/* Adjust the width as needed */
+margin-right: 10px; /* Add margin for spacing */
+}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+text-transform: capitalize; /* Capitalize the text */
+}
+
+.navbar-nav {
+margin: auto; /* Center the navbar items */
+}
+
+.navbar-nav .nav-item {
+text-align: center; /* Center the text in each navbar item */
+}
+
+.navbar-nav .nav-link {
+text-transform: capitalize; /* Capitalize the text in navbar links */
+}
+
+.home-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: black; /* Set the text color */
+text-align: center;
+}
+
+.home-content h2 {
+font-size: 36px; /* Set the font size of the heading */
+}
+
+.home-content p {
+font-size: 18px; /* Set the font size of the paragraph */
+}
+
+.contact-btn {
+margin-top: 20px; /* Add space between paragraph and button */
+}
+
+/* About Us Section */
+.container{
+margin-bottom: 50px;
+background-color: transparent;
+}
+section.bg-light {
+background-color: #f8f9f6; /* or any other background color you prefer */
+}
+
+/* About Us Cards */
+.card-body:hover {
+background-color: lightblue;
+}
+/* Flex container for cards */
+.card-container {
+      display: flex;
+      justify-content: space-around; /* Adjust as needed */
+  }
+
+  .card {
+      flex: 0 0 30%; /* Adjust the width of the cards as needed */
+      margin-bottom: 20px; /* Add spacing between cards */
+  }
+
+  .card img {
+      max-width: 100%; /* Make sure the image doesn't exceed the container width */
+      height: auto; /* Maintain the image aspect ratio */
+  }
+
+  #carouselExampleSlidesOnly {
+    max-height: 200px; /* Set the maximum height of the carousel */
+    margin: 0 auto; /* Center the carousel */
+  }
+
+  .carousel-inner img {
+    object-fit: cover; /* Ensure the images cover the entire carousel area */
+    max-height: 50%; /* Maintain the aspect ratio */
+  }
+
+  /* faq session */
+  
+
+
+  /* testinomials */
+  #testimonial-carousel {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.testimonial-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial-content {
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.filled-star {
+    content: "\2605"; /* Unicode character for a filled star */
+    font-size: 20px;
+}
+
+/* footer */
+/* Custom CSS for Footer Section */
+
