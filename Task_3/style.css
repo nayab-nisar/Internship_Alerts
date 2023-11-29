@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(34, 7, 59);
+    color: aliceblue;
+    height: 55px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.gameContainer {
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 8vw);
+    grid-template-rows: repeat(3, 8vw);
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 6vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.gameInfo {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gameInfo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.gameInfo div {
+    margin-top: 10px;
+}
+
+.info {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #555;
+}
+
+#reset {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#reset:hover {
+    background-color: #45a049;
+}
+
+
+.br-0 {
+    border-right: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+/* Media queries */
+
+/* Media query for tablet view */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10px 0;
+        grid-template-columns: repeat(3, 10vw);
+        grid-template-rows: repeat(3, 10vw);
+    }
+    .heading{
+        font-size: 16px;
+    }
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 10px 0;
+        grid-template-columns: repeat(3, 15vw);
+        grid-template-rows: repeat(3, 15vw);
+        order: 2; /* Move the container to the bottom in the column layout */
+    }
+
+    .gameInfo {
+        padding: 15px; 
+        /* Adjust padding for better spacing in mobile view */
+    }
+    .heading{
+        font-size: 14px;
+    }
+}
