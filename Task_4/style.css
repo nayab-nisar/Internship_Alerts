@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans&display=swap');
+body {
+
+font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+.navbar-brand {
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;/* Add your desired background color */
+
+  color: #333; /* Set your desired text color */
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 1.5px solid #333; /* Set your desired border color */
+  background-color: #333; /* Set your desired background color */
+  padding: 5px; /* Adjust the padding as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+.navbar-brand {
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;/* Add your desired background color */
+
+  color: #333; /* Set your desired text color */
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 1.5px solid #333; /* Set your desired border color */
+  background-color: #333; /* Set your desired background color */
+  padding: 5px; /* Adjust the padding as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+
+}
+
+.container-fluid span{
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-size: 25px;
+  color: #ffc107;
+
+}
+.container-fluid span .flavors{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: rgb(175, 40, 40);
+  font-size: larger;
+}
+/* media queries */
+
+
+/* Default styles */
+.container-fluid span {
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-size: 25px;
+  color: #ffc107;
+}
+
+.container-fluid span .flavors {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  color: rgb(175, 40, 40);
+  font-size: larger;
+}
+
+
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 1.5px solid #333;
+  background-color: #333;
+  padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card-body {
+  background-color: #fff;
+}
+
+.collapse {
+  margin-top: 10px;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.custom-card {
+  margin-bottom: 15px;
+}
+
+/* About Us Section */
+section.bg-light {
+background-color: #f8f9fa; /* or any other background color you prefer */
+}
+
+/* Custom CSS for Home Section */
+section {
+height: 500px; /* Set the desired height of the home section */
+background: url('your-background-image.jpg') center/cover no-repeat; /* Replace 'your-background-image.jpg' with the actual image URL */
+position: relative;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/* background: rgba(255, 253, 253, 0.5); */
+/* Adjust the transparency as needed */
+}
+
+
+
+/* Custom CSS for styling */
+.navbar-brand img {
+width: 85px; 
+height: 50px;/* Adjust the width as needed */
+margin-right: 10px; /* Add margin for spacing */
+}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+text-transform: capitalize; /* Capitalize the text */
+}
+
+.navbar-nav {
+margin: auto; /* Center the navbar items */
+}
+
+.navbar-nav .nav-item {
+text-align: center; 
+/* Center the text in each navbar item */
+}
+.navbar-brand{
+  font-size: 23px;
+}
+.navbar-nav .nav-link {
+text-transform: capitalize; /* Capitalize the text in navbar links */
+font-size: 20px;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #ffc107;
+  border-radius: 30%;
+  }
+
+
+  /* home section */
+  
+  .home-section {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the video behind other content */
+  }
+  
+  
+  /* footer section */
+  .footer-section {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  .social-icons a:hover {
+    background-color: #ffc107;
+  }
+  .social-icons i {
+    font-size: 30px;
+  }
+  /* custom section */
+ 
+  .custom-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .custom-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+
+
+  .text-content {
+    max-width: 60%;
+  }
+  
+  .red-heading {
+    font-weight: 700;
+    color:   rgb(175, 40, 40);
+    font-style: italic;
+    font-size: 50px;
+  }
+  
+  p {
+    color: #fff;
+    font-size: 30px;
+    font-style: bold;
+  }
+  
+  ul li {
+    color: #fff;
+    font-size: 25px;
+  }
+
+
+
+
+/* About Us Section */
+.container{
+margin-bottom: 50px;
+background-color: transparent;
+}
+section.bg-light {
+background-color: #f8f9f6; /* or any other background color you prefer */
+}
+
+/* About Us Cards */
+.card:hover {
+  
+}
+/* Flex container for cards */
+.card-container {
+      display: flex;
+      justify-content: space-around; /* Adjust as needed */
+  }
+
+  .card {
+      flex: 0 0 30%; /* Adjust the width of the cards as needed */
+      margin-bottom: 20px; 
+      border-radius: 45px;/* Add spacing between cards */
+  }
+
+  .card img {
+    border-radius: 20px;
+      max-width: 100%; /* Make sure the image doesn't exceed the container width */
+      height: auto; /* Maintain the image aspect ratio */
+  }
+  .card img:hover{
+    scale: 0.9;
+  }
+
+  
+
+  #carouselExampleSlidesOnly {
+    max-height: 200px; /* Set the maximum height of the carousel */
+    margin: 0 auto; /* Center the carousel */
+  }
+
+  .carousel-inner img {
+    object-fit: cover; /* Ensure the images cover the entire carousel area */
+    max-height: 50%; /* Maintain the aspect ratio */
+  }
+
+  /* faq session */
+  
+
+
+  /* testinomials */
+  #testimonial-carousel {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.testimonial-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial-content {
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.filled-star {
+    content: "\2605"; /* Unicode character for a filled star */
+    font-size: 20px;
+}
+
+/* gallery html */
+.gallery{
+
+  background-color: #333;
+}
+.heading_2{
+  color: #f8f9f6;
+}
+
+
+/* Center the main course heading and add margin-top */
+.main-course-section {
+  height: 2700px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* Style the heading */
+.heading_3 {
+  font-size: 45px;
+  color: #FFDB58; /* Mustard color */
+}
+
+/* Style the cards and add margin-bottom */
+.card {
+  margin-left: 80px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+/* Style the card body background color */
+.card-body {
+  background-color: #333;
+}
+
+/* Style the card image */
+.card-img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* Style the card title */
+.card-title {
+  color: #ffffff; /* White color for heading */
+  float: left;
+}
+
+/* Style the card subtitle */
+.card-subtitle {
+  color: #6c757d; /* Gray color for subheading */
+}
+
+/* Style the card price */
+.card-price {
+  color: #dc3545; /* Red color for price */
+}
+
+/* Adjust margin-bottom for the row */
+.row {
+  margin-bottom: 70px;
+}
+
+/* Center the last three cards in the row */
+.row:last-child .col-4 {
+  text-align: center;
+}
+
+/* Optional: If you want equal spacing between all cards */
+.col-4 {
+  margin-bottom: 20px;
+}
+
+
+/* 
+.main-course-section {
+      margin-top: 150px;
+      
+      text-align: right;
+    }
+
+    
+
+    .main-course-heading {
+      font-size: 45px;
+    }
+    .card-body{
+      background-color: #333;
+    }
+
+    .card {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card-img {
+      border-radius: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+    .card-title {
+      color: #ffffff; 
+      float: left;/* White color for heading 
+    }
+
+    .card-subtitle {
+      /* float: left; 
+      color: #6c757d; /* Gray color for subheading 
+    }
+
+    .card-price {
+      /* float: left; 
+      color: #dc3545; /* Red color for prize 
+    }
+    .col-4{]
+    }
+ */

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Bootstrap Icons stylesheet -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+      <style>
+        /* Add these styles to your existing stylesheet */
+.swiper-pagination {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; /* Adjust the height as needed */
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 10px; /* Adjust the width of each bullet as needed */
+  height: 10px; /* Adjust the height of each bullet as needed */
+  background-color: #ccc; /* Color for inactive bullets */
+  margin: 0 5px; /* Adjust the spacing between bullets as needed */
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffcc00; /* Mustard color for the active bullet */
+}
+img:hover{
+  scale: 1.2;
+}
+
+          .img_box img {
+            border-radius: 5px;
+            border: 2px solid #fff;
+              max-width: 100%;
+              max-height: 100%;
+          }
+  
+          .slider_container .container {
+              padding: 0 15px;
+              max-width: 1230px;
+              margin: 0 auto;
+          }
+  
+          .card_slider {
+              padding: 100px 0;
+              position: relative; /* Add relative positioning for the navigation buttons */
+          }
+  
+          .swiper-button-next,
+          .swiper-button-prev {
+              color: #fff; /* Set button color */
+              font-size: 5px;
+              position: absolute; /* Position buttons absolutely within the slider container */
+              top: 50%;
+              transform: translateY(-50%);
+              cursor: pointer;
+              z-index: 10;
+              padding: 0px;
+          }
+  
+ 
+          /* Adjust button styles for smaller screens */
+          @media (max-width: 768px) {
+              .swiper-button-next,
+              .swiper-button-prev {
+                  font-size: 3px;
+                  padding: 0px;
+              }
+          }
+      </style>
+  
+  </head>
+
+
+<body class="gallery">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assests/logo_1.jpg" alt="Icon" width="50" height="40" class="d-inline-block align-top">
+            <span>Fusion<span class="flavors">Flavors</span>Hub</span>
+          </a>
+      
+          <!-- Navbar Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!-- Added 'ms-auto' class for right alignment -->
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    <!-- navbar.html -->
+
+
+
+    <h1 class="heading_3"> GALLERY</h1>
+
+     <!-- <div class="container main-course-section">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_1.jpeg" alt="Main Course 1" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 1</h5>
+              <h6 class="card-subtitle">Description 1</h6>
+              <p class="card-price">$19.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_2.jpeg" alt="Main Course 2" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 2</h5>
+              <h6 class="card-subtitle">Description 2</h6>
+              <p class="card-price">$24.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_3.jpeg" alt="Main Course 3" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 3</h5>
+              <h6 class="card-subtitle">Description 3</h6>
+              <p class="card-price">$29.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_4.jpeg" alt="Main Course 4" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 4</h5>
+              <h6 class="card-subtitle">Description 4</h6>
+              <p class="card-price">$22.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_5.jpeg" alt="Main Course 5" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 5</h5>
+              <h6 class="card-subtitle">Description 5</h6>
+              <p class="card-price">$27.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="assests/item_6.jpeg" alt="Main Course 6" class="card-img">
+            <div class="card-body">
+              <h5 class="card-title">Dish 6</h5>
+              <h6 class="card-subtitle">Description 6</h6>
+              <p class="card-price">$32.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   -->
+  
+  
+<section class="slider_container">
+
+    <div class="container">
+        <div class="swiper card_slider">
+            <div class="swiper-wrapper">
+                <!-- image 1 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/about.jpeg" alt="">
+                    </div>
+                </div>
+
+                <!-- image 2 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/item_1.jpeg" alt="">
+                    </div>
+                </div><!-- image 3 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/item_2.jpeg" alt="">
+                    </div>
+                </div><!-- image 4 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/item_3.jpeg" alt="">
+                    </div>
+                </div><!-- image 5 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/item_4.jpeg" alt="">
+                    </div>
+                </div><!-- image 6 -->
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="assests/item_5.jpeg" alt="">
+                    </div>
+                </div>
+
+                <!-- image  -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+                      <img src="assests/item_6.jpeg" alt="">
+                  </div>
+              </div>
+              <!-- image 6 -->
+              <div class="swiper-slide">
+                <div class="img_box">
+                    <img src="assests/desert_1.jpeg" alt="">
+                </div>
+            </div>
+            <!-- image 6 -->
+            <div class="swiper-slide">
+              <div class="img_box">
+                  <img src="assests/desert_2.jpeg" alt="">
+              </div>
+          </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script type="text/javascript">
+    var swiper = new Swiper(".card_slider", {
+        loop: true,
+        speed: 1000,
+        autoplay: { delay: 2000, },
+
+        spaceBetween: 70,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1200: {
+                slidesPerView: 4,
+            },
+        },
+
+
+    });
+</script>
+
+</body>
+</html>
+
+  
+  <script>
+        document.getElementById("navbarContainer").innerHTML = '<object type="text/html" data="navbar.html"></object>';
+    </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+  }
+  .navbar-brand {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;/* Add your desired background color */
+  
+    color: #333; /* Set your desired text color */
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    border: 1.5px solid #333; /* Set your desired border color */
+    background-color: #333; /* Set your desired background color */
+    padding: 5px; /* Adjust the padding as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  
+  }
+  h1 {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
